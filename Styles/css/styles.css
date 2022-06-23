@@ -1,37 +1,52 @@
 header {
-  background-color: rgb(36, 0, 36);
+  background-color: rgb(0, 3, 10);
   color: white;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
 }
 header h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
 }
 header ul {
   display: flex;
   list-style: none;
   padding: 5px;
+  margin-right: 20px;
   border-radius: 5px;
   justify-content: space-around;
 }
 header ul li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
   margin: 0 10px;
+  text-transform: uppercase;
 }
 
 article {
-  background-color: beige;
-  max-width: 700px;
-  max-height: 900px;
+  background-color: rgb(0, 0, 31);
+  width: 100%;
+  height: 75vh;
+  margin: 0;
 }
 article ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   list-style: none;
+  color: white;
+}
+article li {
+  margin-top: 100px;
 }
 
 footer {
-  background-color: purple;
+  background-color: rgb(0, 3, 10);
   color: white;
   padding: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
